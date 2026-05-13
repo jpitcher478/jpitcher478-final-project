@@ -53,16 +53,16 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color: #ffffff;
+    background-color: #d5cab6;
 }
 
 th {
     background-color: #2E7D32;
-    color: #ffffff;
+    color: #d5cab6;
 }
 
 th, td {
-    border: 1px solid #cccccc;
+    border: 1px solid #2E7D32;
     padding: 10px;
 }
 

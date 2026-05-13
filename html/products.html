@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+<main class="container">
+
+    <nav> <a href="homepage.html">Home</a> | <a href="aboutUs.html">About Us</a> | <a href="products.html">Products</a> | <a href="resources.html">Resources</a> | <a href="contact.html">Contact Us</a> </nav>
+
+    <h1>Products & Services</h1>
+
+    <!-- Filter Dropdown Menu -->
+<select id="productFilter" onchange="filterProducts()">
+    <option value="all">All Products</option>
+    <option value="devices">Energy Devices</option>
+    <option value="recycling">Recycling Systems</option>
+    <option value="software">Carbon Software</option>
+    <option value="consulting">Consulting</option>
+</select>
+
+<!-- Products Container -->
+<div class="products-container">
+
+    <div class="product-card devices">
+
+        <img src="../images/smartDevices.jpg" alt="Energy-efficient device" width="300" class="hero-image">
+
+        <h2>Energy-Efficient Devices</h2>
+
+        <p>Smart devices designed to reduce energy consumption and improve efficiency in businesses.</p>
+
+    </div>
+
+    <div class="product-card recycling">
+
+        <img src="../images/recycle.jpg" alt="Smart recycling system" width="300" class="hero-image">
+
+        <h2>Smart Recycling Systems</h2>
+
+        <p>Automated recycling systems that help organizations manage waste more effectively.</p>
+
+    </div>
+
+    <div class="product-card software">
+
+        <img src="../images/software.jpg" alt="Carbon tracking software" width="300" class="hero-image">
+
+        <h2>Carbon Tracking Software</h2>
+
+        <p>Software tools that monitor and track carbon emissions.</p>
+
+    </div>
+
+    <div class="product-card consulting">
+
+        <img src="../images/consultation.jpg" alt="Sustainability consulting" width="300" class="hero-image">
+
+        <h2>Sustainability Consulting</h2>
+
+        <p>Expert guidance for environmentally responsible practices.</p>
+
+    </div>
+
+</div>
+
+</main>
+
+<script src="../javascript/script.js"></script>
+
+</body>
+</html>

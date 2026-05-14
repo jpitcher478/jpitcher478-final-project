@@ -1,6 +1,6 @@
 /* Page Background */
 body {
-    background-color: #d5cab6;
+    background-color: #eadec9;
     color: #2d2d2d;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 16px;
@@ -81,7 +81,7 @@ ol, ul {
 
 li {
     margin: 8px 0;
-    color: #444444;
+    color: #000000;
 }
 
 /* Links */

@@ -41,7 +41,12 @@ p {
     margin: 15px 0;
 }
 
-/* Image */
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .hero-image {
     border: 4px solid #2E7D32;
     margin: 20px 0;
@@ -81,21 +86,22 @@ li {
 
 /* Links */
 a {
-    color: #2E7D32;
+    color: #1B5E20;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
-    color: #8D6E63;
+    color: #0D3B12;
     text-decoration: underline;
 }
 
 a:focus {
-    outline: 2px dashed #8D6E63;
+    outline: 2px dashed #0D3B12;
 }
 
 a:active {
-    color: #A5D6A7;
+    color: #388E3C;
 }
 
 /* Navigation */
@@ -108,7 +114,7 @@ nav {
 /* Mobile View */
 @media (max-width: 600px) {
     h1 {
-        font-size: 22px;
+        font-size: 2em;
     }
 
     form {
